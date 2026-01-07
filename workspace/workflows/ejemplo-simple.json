@@ -1,0 +1,30 @@
+{
+  "name": "Ejemplo - Workflow Simple",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "start",
+      "name": "Inicio",
+      "type": "n8n-nodes-base.start",
+      "typeVersion": 1,
+      "position": [250, 300]
+    },
+    {
+      "parameters": {
+        "content": "# Bienvenido a n8n\n\nEste es un workflow de ejemplo.\nPuedes modificarlo según tus necesidades."
+      },
+      "id": "note",
+      "name": "Nota",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [450, 200]
+    }
+  ],
+  "connections": {},
+  "settings": {},
+  "staticData": null,
+  "meta": {
+    "instanceId": "local"
+  },
+  "tags": []
+}

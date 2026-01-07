@@ -1,0 +1,36 @@
+# n8n specific files
+.n8n/
+*.env
+.env.local
+.env.*.local
+
+# Credentials and sensitive data
+**/credentials/*.json
+**/credentials/*.txt
+secrets/
+*.key
+*.pem
+*.p12
+
+# Node modules (if using n8n locally)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS specific files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+logs/
+*.log
